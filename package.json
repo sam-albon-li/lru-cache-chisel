@@ -1,0 +1,31 @@
+{
+  "name": "lru-cache-chisel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "benchmark": "node benchmark.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Lugana707/lru-cache-chisel.git"
+  },
+  "keywords": [
+    "cache"
+  ],
+  "author": "Sam Albon",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Lugana707/lru-cache-chisel/issues"
+  },
+  "homepage": "https://github.com/Lugana707/lru-cache-chisel#readme",
+  "devDependencies": {
+    "benchmark": "^2.1.4",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.0",
+    "jest": "^24.9.0"
+  }
+}
